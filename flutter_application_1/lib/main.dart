@@ -50,6 +50,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   int developBranchVariable = 0;
+  int bugBranchVariable = 0;
 
   void _incrementCounter() {
     setState(() {
